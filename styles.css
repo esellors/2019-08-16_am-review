@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#eightBall {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #000;
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px #fff inset;
+}
+
+#screen {
+  width: 30%;
+  height: 30%;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  color: greenyellow;
+  border: 2px solid #aaa;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #fff inset;
+}
